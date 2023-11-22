@@ -1,0 +1,34 @@
+{
+  "include": ["typings/**/*", "src/**/*", "server/**/*", "vite.config.ts"],
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@src": ["./src/index"],
+      "@src/*": ["./src/*"],
+    },
+    "lib": ["dom", "esnext"],
+    "target": "ES6",
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "outDir": "./dist/",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "noImplicitOverride": true,
+    "noImplicitThis": true
+  },
+  "files": [
+    "./typings/env.d.ts"
+  ],
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node",
+    "files": true
+  },
+}
