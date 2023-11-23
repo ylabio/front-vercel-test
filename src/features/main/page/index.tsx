@@ -9,7 +9,7 @@ function Main() {
   const {t} = useI18n();
   return (
     <PageLayout>
-      <Head title="React Skeleton"><LocaleSelect/></Head>
+      <Head title="Fork React Skeleton"><LocaleSelect/></Head>
       <MainMenu/>
       <h2>{t('main.page.title')}</h2>
       <p>{t('main.page.content')}</p>
