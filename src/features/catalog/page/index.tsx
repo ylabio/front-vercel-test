@@ -36,7 +36,7 @@ function CatalogPage() {
 
   return (
     <PageLayout>
-      <Head title="React Skeleton"><LocaleSelect/></Head>
+      <Head title="Fork React Skeleton"><LocaleSelect/></Head>
       <MainMenu/>
       <h2>{t('catalog.title')}</h2>
       <p>
