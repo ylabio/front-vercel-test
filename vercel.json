@@ -1,12 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/api",
-      "destination": "http://example.front.ylab.io"
-    },
-    {
       "source": "/(.*)",
       "destination": "/index.html"
+    },
+    {
+      "source": "/api",
+      "destination": "http://example.front.ylab.io"
     }
   ]
 }
